@@ -2,6 +2,7 @@ package models;
 
 
 public class Building implements Structure {
+    private int id;
     private String street;
     private int number;
     private int x;

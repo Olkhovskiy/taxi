@@ -5,6 +5,7 @@ public class Crossroad implements Structure {
     public int getType() {
         return Types.CROSSROAD_TYPE;
     }
+    private int id;
     private String firstStreet;
     private String secondStreet;
     private int x;
